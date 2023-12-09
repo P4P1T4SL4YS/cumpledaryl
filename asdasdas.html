@@ -1,75 +1,22 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página con Video</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #000;
-        }
-
-        #video-container {
-            position: relative;
-            width: 100%;
-            max-width: 600px; /* Establece el ancho máximo del contenedor del video */
-        }
-
-        video {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-
-        #button-container {
-            position: absolute;
-            top: 48%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            display: flex;
-            align-items: center; /* Centra los botones en dispositivos móviles */
-        }
-
-        a {
-            text-decoration: none;
-            margin: 0 55px;
-            padding: 10px 80px;
-            font-size: 16px;
-            cursor: pointer;
-            border: none;
-        }
-    </style>
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <div id="video-container">
+    <div class="videocumple">
         <video controls>
-            <!-- Puedes reemplazar "tu_video.mp4" con la URL o ruta de tu video -->
-            <source src="Tarjeta de Invitación Cumpleaños Carros Niño.mp4   " type="video/mp4">
-            Tu navegador no soporta el elemento de video.
+            <source src="Tarjeta de Invitación Cumpleaños Carros Niño.mp4" type="video/mp4" >
         </video>
-
-        <div id="button-container">
-            <a href="https://maps.app.goo.gl/6Ya1TuDa2z7LiHLh6" onclick="accionEnlace1()" target="_blank"></a>
-            <a href="https://wa.link/p58e6s" onclick="accionEnlace2()" target="_blank"></a>
+        <div class="gaa">
+            <a href="https://maps.app.goo.gl/6Ya1TuDa2z7LiHLh6" target="_blank"></a>
+        </div>
+        <div class="gaa2">
+            <a href="https://wa.link/p58e6s" target="_blank"></a>
         </div>
     </div>
-
-    <script>
-        function accionEnlace1() {
-            console.log("Enlace 1 clickeado");
-            // Agrega la acción que deseas realizar con el Enlace 1
-        }
-
-        function accionEnlace2() {
-            console.log("Enlace 2 clickeado");
-            // Agrega la acción que deseas realizar con el Enlace 2
-        }
-    </script>
 </body>
 </html>
