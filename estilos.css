@@ -5,6 +5,8 @@
 
     margin-top: 90px;
 
+    position: relative;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,5 +15,21 @@
 
 .videocumple video{
     width: 540px;
+}
+
+.gaa a{
+    width: 180px;
+    height: 35px;
+    position: absolute;
+    left: 38%;
+    top: 46%;
+}
+
+.gaa2 a{
+    width: 180px;
+    height: 35px;
+    position: absolute;
+    left: 53%;
+    top: 46%;
 }
 
