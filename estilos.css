@@ -1,4 +1,17 @@
 .videocumple{
-    text-align: center;
+
+    height: 50%;
+    width: auto;
+
+    margin-top: 90px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.videocumple video{
+    width: 540px;
 }
 
