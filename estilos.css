@@ -18,18 +18,35 @@
 }
 
 .gaa a{
-    width: 180px;
-    height: 35px;
+    width: 165px;
+    height: 30px;
     position: absolute;
-    left: 38%;
-    top: 46%;
+    left: 55px;
+    top: 415px;
+    background-color: red;
+
+    @media screen and (width: 425px){
+        width: 120px;
+        height: 30px;
+        left: 38px;
+        top: 46%;
+        background-color: red;
+    }
 }
 
 .gaa2 a{
     width: 180px;
-    height: 35px;
+    height: 30px;
     position: absolute;
-    left: 53%;
-    top: 46%;
-}
+    left: 335px;
+    top: 415px;
+    background-color: red;
 
+    @media screen and (width: 425px){
+        width: 150px;
+        height: 30px;
+        left: 225px;
+        top: 46%;
+        background-color: red;
+    }
+}
